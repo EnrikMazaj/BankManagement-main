@@ -1,4 +1,5 @@
-To run this program first you should check your database url to match correctly the one in your computer
+To run this program first you should check your database url to match correctly the one in your computer 
+- the database url is located in the __init__.py file inside app folder
 
 After that write in terminal the following commands:
 # Create a new virtual environment
