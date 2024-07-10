@@ -1,0 +1,9 @@
+CREATE DATABASE bankdb;
+
+USE bankdb;
+
+CREATE TABLE banks (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    name NVARCHAR(100) NOT NULL,
+    location NVARCHAR(100) NOT NULL
+);

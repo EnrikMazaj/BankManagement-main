@@ -1,0 +1,17 @@
+To run this program first you should check your database url to match correctly the one in your computer
+
+After that write in terminal the following commands:
+# Create a new virtual environment
+ python -m venv venv
+
+# Activate the virtual environment
+ venv\Scripts\activate
+
+# Install dependencies
+ pip install -r requirements.txt
+
+# Create database
+ python create_tables.py
+
+# Run application
+ python run.py
